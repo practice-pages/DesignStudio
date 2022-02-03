@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.navigation {
+    background-color: #eee;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar1 .navbar a {
+
+    text-transform: uppercase;
+}
+
+
+.navbar1 .navbar a {
+    color: #999;
+    text-decoration: none;
+    padding: 0 0.7rem;
+    transition: 0.4s all ease;
+
+}
+
+.navbar1 .navbar a.active1 {
+    color: #428647;
+
+}
+
+
+.logoimg {
+    width: 70%;
+}
+
+
+
+
+
+.navbar1 .navbar a:hover {
+    border-bottom: 1px solid #d18b36;
+    padding-bottom: 5px;
+    color: #d18b36;
+
+}
+
+.icons {
+    display: none;
+}
+
+
+
+
+/* Header Starts */
+
+.header {
+    width: 100%;
+    height: 70vh;
+    background: url(images/dsbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingtxt {
+    width: 50%;
+}
+
+.header .headingtxt h3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    font-family: 'Fredoka One';
+    text-align: center;
+}
+
+.header .headingtxt p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+
+    color: #111212;
+    font-weight: normal;
+    font-family: sans-serif;
+    margin: 21px 0 0;
+    margin-bottom: 1.5rem;
+}
+
+.credit {
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.credit p a {
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    padding-bottom: 3px;
+
+}
+
+
+
+
+
+.btn {
+    text-decoration: none;
+    border-radius: 25px;
+
+    width: 50%;
+    padding: 0.6rem 3.5rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    margin: 0rem 1.5rem;
+}
+
+
+.btn1 {
+    background: #428647;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.btn1:hover {
+    background-color: #396d3c;
+}
+
+.btn2 {
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: #396d3c;
+    font-family: sans-serif;
+}
+
+.btn2:hover {
+    background: #fff;
+}
+
+
+
+.footer {
+    display: flex;
+    color: #fff;
+    background: #333;
+    padding: 5rem 3rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer .fl {
+    font-size: .8rem;
+}
+
+p .footerlink {
+    color: #91c191;
+    line-height: 44px;
+    margin: 2px 5px;
+}
+
+#menu-btn {
+    color: #999;
+}
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 800px) {
+    .icons {
+        display: block;
+    }
+
+
+
+    .navbar {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    
+.header .headingtxt h3 {
+        font-size: 3rem;
+        font-weight: 300;
+
+    }
+
+    .header .headingtxt p {
+        font-size: 1rem;
+
+        line-height: 2rem;
+    }
+
+    
+
+
+
+
+}
