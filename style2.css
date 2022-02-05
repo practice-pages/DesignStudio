@@ -1,0 +1,76 @@
+/* header Start */
+.header {
+    width: 100%;
+    height: 70vh;
+    background: url(images/1bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .headingtxt h3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    font-family: 'Fredoka One';
+    text-align: center;
+    color: #428647;
+}
+
+.header .headingtxt p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+
+    color: #428647;
+    font-weight: normal;
+    font-family: sans-serif;
+    margin: 21px 0 0;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 0%;
+
+    width: 50%;
+    padding: 0.6rem 3.5rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    margin: 0rem 1.5rem;
+}
+
+
+.btn1 {
+    background: #428647;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.btn1:hover {
+    background-color: #396d3c;
+}
+
+.btn2 {
+    background: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: #396d3c;
+    font-family: sans-serif;
+}
+
+.btn2:hover {
+    background: #428647;
+    color: #fff;
+}
+
+
+
+/* Header Ends */
+
